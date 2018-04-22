@@ -16,6 +16,7 @@ class Book extends Product {
         this.pagesNum = pagesNum;
     }
 
+    @Override
     public String toString() {
         return "Książka '" + getTitle() + "', ISBN: " + getIsbn();
     }
